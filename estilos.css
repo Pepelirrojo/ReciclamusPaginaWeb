@@ -1,0 +1,21 @@
+body{
+    background-image: url("Images/Wood2.jpg");
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+h1{
+    font-family: "JetBrains Mono";
+    border: aliceblue;
+    color: #b60711;
+    justify-content: center;
+    font-size: 500%;
+    display: flex;
+    text-align: center;
+    background-image: url("Images/giphy.gif");
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
