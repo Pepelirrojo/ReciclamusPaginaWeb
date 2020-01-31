@@ -19,3 +19,21 @@ h1{
     -webkit-background-size: cover;
     -o-background-size: cover;
 }
+#photos{
+    display: flex;
+    flex-direction: row;
+    widht: 60%;
+    flex-wrap: wrap;
+}
+img{
+    width: 15%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+#principal{
+    display: flex;
+    flex-direction: row;
+}
+#info{
+    width: 40%;
+}
