@@ -1,11 +1,12 @@
-body{
+body {
     background-image: url("Images/Wood2.jpg");
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
 }
-h1{
+
+h1 {
     font-family: "JetBrains Mono";
     border: aliceblue;
     color: #b60711;
@@ -19,21 +20,81 @@ h1{
     -webkit-background-size: cover;
     -o-background-size: cover;
 }
-#photos{
+
+#photos {
     display: flex;
     flex-direction: row;
-    widht: 60%;
+    flex: 80%;
     flex-wrap: wrap;
 }
-img{
-    width: 15%;
+
+img {
+    width: 19%;
     margin-left: 2%;
     margin-top: 2%;
 }
-#principal{
+
+#principal {
     display: flex;
     flex-direction: row;
 }
-#info{
-    width: 40%;
+
+#info {
+    flex: 15%;
 }
+
+#btn1 {
+    color: #0e4d09 !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #eae6a4;
+    border: 2px solid;
+    border-color: #0e4d09;
+    transition: all 1s ease;
+    position: relative;
+}
+
+#btn1:hover {
+    color: #b27bb3;
+    background: #0e4d09;
+    color: #fff !important;
+}
+
+#btn2 {
+    color: #60496e !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #eae6a4;
+    border: 2px solid;
+    border-color: #60496e;
+    transition: all 1s ease;
+    position: relative;
+}
+
+#btn2:hover {
+    background: #60496e;
+    color: #fff !important;
+}
+
+.btnX {
+    color: rgba(154, 148, 145, 0.9) !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: #dc3642;
+    border: 2px solid;
+    border-color: #9a9491;
+    position: relative;
+    margin-top: 2%;
+    margin-left: 18%;
+}
+
+.btnX:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px rgb(72, 172, 74);
+    transition: all 0.2s ease;
+}
+
+
