@@ -1,20 +1,26 @@
 body {
-    background-image: url("Images/Wood2.jpg");
+    background-image: url("Images/trees1.jpg");
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
 }
 
+#title {
+
+}
+
 h1 {
-    font-family: "JetBrains Mono";
-    border: aliceblue;
-    color: #b60711;
+    border: solid;
+    border-color: aliceblue;
+    font-family: "Palatino Linotype";
+    color: #fff6f6;
     justify-content: center;
     font-size: 500%;
     display: flex;
     text-align: center;
-    background-image: url("Images/giphy.gif");
+    background-color: #d16340;
+    background-border: aliceblue;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -29,7 +35,8 @@ h1 {
 }
 
 img {
-    width: 19%;
+    max-width: 19%;
+    max-height: 34%;
     margin-left: 2%;
     margin-top: 2%;
 }
@@ -48,7 +55,7 @@ img {
     font-size: 20px;
     font-weight: 500;
     padding: 0.5em 1.2em;
-    background: #eae6a4;
+    background: #d16340;
     border: 2px solid;
     border-color: #0e4d09;
     transition: all 1s ease;
@@ -66,7 +73,7 @@ img {
     font-size: 20px;
     font-weight: 500;
     padding: 0.5em 1.2em;
-    background: #eae6a4;
+    background: #d16340;
     border: 2px solid;
     border-color: #60496e;
     transition: all 1s ease;
@@ -83,7 +90,7 @@ img {
     font-size: 20px;
     font-weight: 500;
     padding: 0.5em 1.2em;
-    background: #dc3642;
+    background: #d16340;
     border: 2px solid;
     border-color: #9a9491;
     position: relative;
@@ -95,6 +102,8 @@ img {
     color: rgba(255, 255, 255, 1) !important;
     box-shadow: 0 4px 16px rgb(72, 172, 74);
     transition: all 0.2s ease;
+    border-color: #22ff34;
 }
-
-
+#aboutUs{
+    width: 100%;
+}
