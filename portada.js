@@ -17,9 +17,14 @@ function takePhotos() {
             const response = request.response;
             for (let i = 0; i < 12; i++) {
                 let photo = document.createElement('img');
-                photos.appendChild(photo);
-                console.log(response[i].download_url);
+                let divImgAux = document.createElement('div');
+                divImgAux.setAttribute('class', 'fotos');
+                photos.appendChild(divImgAux);
+                divImgAux.appendChild(photo);
                 photo.setAttribute("src", response[i].download_url);
+                photo.onclick = function () {
+                    photo.style.zoom = 80;
+                }
             }
         }
     };
@@ -34,6 +39,7 @@ function showMeetUs() {
     content1.style.transition = '1s';
     content1.style.background = '#4cba4d';
     text1.innerHTML = "Somos una pequeña empresa que se dedica a la restauración y deccoración de muebles antiguos.";
+
     btn1.disabled = true;
     btn2.disabled = false;
 
