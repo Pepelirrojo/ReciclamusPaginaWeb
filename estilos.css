@@ -42,6 +42,12 @@ img {
     margin-top: 2%;
 }
 
+.fotos :hover{
+    -webkit-transform: scale(1.7);
+    transform: scale(1.7);
+    transition-duration: 1s;
+}
+
 #principal {
     display: flex;
     flex-direction: row;

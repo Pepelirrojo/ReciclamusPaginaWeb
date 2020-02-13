@@ -34,15 +34,17 @@ function takePhotos() {
 function showMeetUs() {
     content2.innerHTML = "";
     var text1 = document.createElement('p');
+    var gifaux = document.createElement('img');
     content1.appendChild(text1);
+    content1.appendChild(gifaux);
+
     text1.setAttribute('id', 'text1');
     content1.style.transition = '1s';
     content1.style.background = '#4cba4d';
     text1.innerHTML = "Somos una pequeña empresa que se dedica a la restauración y deccoración de muebles antiguos.";
-
+    gifaux.setAttribute('src', 'Images/giphy.gif');
     btn1.disabled = true;
     btn2.disabled = false;
-
 }
 
 function showWhereAre() {
